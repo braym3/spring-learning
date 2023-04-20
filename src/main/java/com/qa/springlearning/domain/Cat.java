@@ -21,6 +21,14 @@ public class Cat {
 
     }
 
+    public Cat(String name, boolean hasWhiskers, boolean evil, double length, boolean hasThumbs) {
+        this.name = name;
+        this.hasWhiskers = hasWhiskers;
+        this.evil = evil;
+        this.length = length;        
+        this.hasThumbs = hasThumbs;
+    }
+
     public Cat(Long id, String name, boolean hasWhiskers, boolean evil, double length, boolean hasThumbs) {
         this.id = id;
         this.name = name;
